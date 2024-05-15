@@ -1,0 +1,55 @@
+* {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+  font-family: "Poppins";
+  color: #bb99dd;
+
+}
+
+
+.home-photo  img{
+  box-sizing: border-box;
+  position: absolute;
+  width: 213px;
+  height: 213px;
+  left: 550px;
+  border-radius: 50%;
+  border: 3px solid #BB99DD;
+ 
+}
+
+.home-photo p {
+position: absolute;
+width: 99px;
+height: 24px;
+left: 610px;
+top: 215px;
+font-size: 16px;
+}
+
+.links {
+  position: absolute;
+width: 47px;
+height: 24px;
+left: 697px;
+top: 498px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #BB99DD;
+}
+
+.links ul {
+  list-style: none;
+}
+
